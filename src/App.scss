@@ -1,0 +1,20 @@
+// architecture for folder layout
+@import "../src/style/abstracts/functions";
+@import "../src/style/abstracts/mixins";
+@import "../src/style/abstracts/variables";
+
+//base
+@import "../src/style/base/animations.scss";
+@import "../src/style/base/base.scss";
+@import "../src/style/base/typography.scss";
+@import "../src/style/base/utilities.scss";
+
+//components
+@import "../src/style/components/button.scss";
+
+//layout
+@import "../src/style/layout/header.scss";
+@import "../src/style/layout/grid.scss";
+
+//pages
+@import "../src/style/pages/home.scss";
